@@ -42,4 +42,4 @@ jobs:
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
         github_token: ${{ secrets.GITHUBTOKEN }}
-        publish_dir: ./public
+        publish_dir: ./resources/public
